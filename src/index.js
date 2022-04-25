@@ -7,8 +7,8 @@ const createImageNode = () => {
   container.className = "p-4";
   
   const imagen = document.createElement('img');
-  imagen.className = "mx-auto";
-  imagen.width = "320";
+  imagen.className = "mx-auto object-cover h-80 w-80 bg-gray-400 rounded";
+  // imagen.width = "320";
   imagen.dataset.src = `https://randomfox.ca/images/${random(1, 122)}.jpg`; // TODO
 
   
